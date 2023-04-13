@@ -6,7 +6,7 @@
  * @s1: string to append
  * @s2: string to concatenate
  * @n: bytes of nums from s2 that is concatenated to s1
- * return: string_concat return(s) to the resulting string
+ * Return: string_concat return(s) to the resulting string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
