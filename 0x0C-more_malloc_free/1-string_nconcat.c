@@ -2,13 +2,12 @@
 #include "main.h"
 
 /**
- * string_nconcat - concatenates bytes of string to another string
- * @s1: this is used to denote how to use string to append to another string
- * @s2: this is used to denote how to use string to concatenate from another string
- * @n: number of bytes from s2 to concatenate to s1
- *
- * Return: pointer to the resulting string
- */
+ * string_nconcat - concatenates bytes of string to another string
+ * @s1: string to append
+ * @s2: string to concatenate
+ * @n: bytes of nums from s2 that is concatenated to s1
+ * return: string_concat return(s) to the resulting string
+ */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *s;
